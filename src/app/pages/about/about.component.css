@@ -1,0 +1,91 @@
+.about-page{
+    background-color: var(--primary-color-1);
+}
+.container
+{
+    padding: 20px;
+}
+.heading-section h2
+{
+font-size: 40px;
+font-family: "wittgenstein",serif;
+font-weight: 600;
+font-style: italic;
+text-align: center;
+}
+.body-section
+{
+    padding: 30px;
+}
+.body-section p{
+    font-size: 18px;
+    font-family: "poppins",serif;
+    font-weight: 500;
+    text-align: justify;
+}
+.keyskills{
+    padding: 20px;
+    margin: 20px; 
+}
+.keyskills h2{
+    text-align: center;
+    font-size: 45px;
+    font-family: "wittgenstein",serif;
+    font-style: italic;
+    font-weight: 600;
+}
+.key-skill{
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: justify;
+}
+.skill{
+    background-color: var(--primary-color-10);
+    margin: 10px;
+    color: var(--primary-color-1);
+    width: 700px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill p{
+    font-size: 15px;
+    font-family: "poppins",sans-serif;
+    font-style: italic;
+}
+.skill:hover{
+    background-color: var(--primary-color-6);
+    color: white;
+    cursor: pointer;
+}
+
+@media(max-width:430px)
+{
+    .heading-section h2{
+        font-size: 22px;
+    }
+    .body-section p{
+        font-size: 15px;
+        text-align:left;
+    }
+    .keyskills h2{
+        font-size: 22px;
+        text-align: left;
+    }
+    .skill{
+        width: 270px;
+        height: 100px;
+        justify-content: left;
+        align-items: start;
+        padding: 10px;
+    }
+    .skill p{
+        font-size: 12px;
+    }
+}

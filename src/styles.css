@@ -1,1 +1,162 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '@fortawesome/fontawesome-free/css/all.css';
+@import '../node_modules/aos/dist/aos.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+:root {
+    --primary-color-1: #66fcf1;
+    --primary-color-2: #5be2d8;
+    --primary-color-3: #51c9c0;
+    --primary-color-4: #47b0a8;
+    --primary-color-5: #3d9790;
+    --primary-color-6: #286460;
+    --primary-color-7: #1e4b48;
+    --primary-color-8: #143230;
+    --primary-color-9: #0a1918;
+    --primary-color-10: #000000;
+}
+
+:root {
+    --secondary-color-1: #45a29e;
+    --secondary-color-2: #57aba7;
+    --secondary-color-3: #6ab4b1;
+    --secondary-color-4: #7cbdbb;
+    --secondary-color-5: #8fc7c4;
+    --secondary-color-6: #a2d0ce;
+    --secondary-color-7: #b4d9d8;
+    --secondary-color-8: #c7e3e1;
+    --secondary-color-9: #d9eceb;
+    --secondary-color-10: #ecf5f5;
+
+}
+
+:root{
+    --text-color-1:#1f2833;
+    --text-color-2:#353d47;
+    --text-color-3:#4b525b;
+    --text-color-4:#626870;
+    --text-color-5:#787e84;
+    --text-color-6:#8f9399;
+    --text-color-7:#a5a9ad;
+    --text-color-8:#bbbec1;
+    --text-color-9:#d2d4d6;
+    --text-color-10:#e8e9ea;
+
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  

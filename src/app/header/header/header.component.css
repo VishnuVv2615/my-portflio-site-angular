@@ -1,0 +1,123 @@
+/* src/app/navbar/navbar.component.css */
+.header-page {
+    background-color: var(--primary-color-9);
+    position: relative;
+  }
+  
+  .container {
+    padding: 20px;
+    color: var(--primary-color-1);
+  }
+  
+  .menu {
+    font-size: 14px;
+    color: var(--primary-color-1);
+  }
+  .menu p{
+    font-size: 15px;
+    color: var(--secondary-color-10);
+  }
+  
+  .fa-light, .fa-bars {
+    color: var(--primary-color-1);
+    font-size: 30px;
+  }
+  
+  .fa-bars:hover {
+    color: var(--primary-color-7);
+    cursor: pointer;
+  }
+  
+  .heading h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+  }
+  
+  .fa-laptop {
+    font-size: 25px;
+  }
+
+  .social-icon a{
+    text-decoration: none;
+    color: var(--primary-color-1);
+  }
+  
+  .fa-linkedin, .fa-square-github {
+    font-size: 20px;
+  }
+  
+  .fa-linkedin:hover, .fa-square-github:hover {
+    cursor: pointer;
+    color: var(--primary-color-7);
+  }
+  
+  .menu-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color-1);
+    color: var(--primary-color-9);
+    padding: 20px;
+    z-index: 1000;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .menu-links i.fa-times {
+    align-self: flex-end;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .menu-links div {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .menu-links div:hover {
+    background-color: var(--primary-color-5);
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 500;
+  }
+  
+
+  /* mobile design */
+  @media(max-width:430px)
+  {
+    
+  .fa-light, .fa-bars {
+    color: var(--primary-color-1);
+    font-size: 20px;
+  }
+
+    .heading h3 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        font-size: 18px;
+      }
+      .menu p{
+        display: none;
+      }
+      .fa-laptop {
+        font-size: 20px;
+      }
+      .menu-links{
+        width: 200px;
+      }
+      .fa-linkedin, .fa-square-github {
+        font-size: 15px;
+      }
+  }
