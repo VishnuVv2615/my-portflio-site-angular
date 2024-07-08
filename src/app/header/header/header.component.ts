@@ -30,13 +30,13 @@ export class HeaderComponent {
     this.isMenuOpen=false;
   }
 
-
   handleClick(path:string):void{
     this.scrollToSection(path);
     this.closeMenu();
 
   }
 
+  // scroll action
   scrollToSection(path:string):void{
     const link=this.navLinks.find(item=>item.path===path);
     if(link)

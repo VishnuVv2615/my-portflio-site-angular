@@ -1,0 +1,20 @@
+<div class="my-skills-page">
+    <div class="container">
+        <div class="heading">
+            <h2 data-aos="fade-down-right" data-aos-duration="1500">Technical Skills</h2>
+        </div>
+        <div class="body-section">
+            <div class="skills row">
+                <div class="skills-section col-12 col-sm-6 col-lg-4 mb-5" *ngFor="let skills of languageSkills">
+                    <a [href]="skills.path">
+                        <div class="skill d-flex flex-column justify-content-center align-items-center gap-3"
+                        data-aos="zoom-out-down" data-aos-duration="1200">
+                            <i [class]="skills.icon"></i>
+                            <p>{{skills.name}}</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
