@@ -7,7 +7,7 @@
             </h3>
             <p class="job-heading" data-aos="fade-down-right" data-aos-duration="1500" data-aos-anchor-placement="center-center">Frontend Web Developer</p>
             <p class="desc" data-aos="fade-down-right" data-aos-duration="1500" data-aos-anchor-placement="center-center">As a recent graduate with a degree in BSc computer science, I am enthusiastic about launching my career as a Frontend Web Developer. Proficient in HTML, CSS, and JavaScript, with hands-on experience in building responsive websites.</p>
-            <button class="btn" routerLink="/contact" data-aos="fade-down" data-aos-duration="1200" data-aos-anchor-placement="center-center">Hire Me</button>
+            <button class="btn" [routerLink]="['/contact']" (click)="scrollToSection('contact')" data-aos="fade-down" data-aos-duration="1200" data-aos-anchor-placement="center-center">Hire Me</button>
         </div>
     </div>
 </div>
