@@ -1,9 +1,6 @@
 .home-page { 
     padding: 50px;
-    background-image: url('C:/Vishnu/Angular/Angular-portfolio/angular-portfolio-site/src/assets/images/bg1.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background-color: var(--primary-color-10);
 }
 
 .container {
