@@ -5,6 +5,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { MySkillsComponent } from './pages/my-skills/my-skills.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { FooterComponent } from './footer/footer/footer.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -13,7 +14,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     HomeComponent,
     AboutComponent,
     MySkillsComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

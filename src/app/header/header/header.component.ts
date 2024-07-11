@@ -15,7 +15,7 @@ export class HeaderComponent {
   isMenuOpen= false;
 
   navLinks=[
-    {name:'Home',path:'',id:'/'},
+    {name:'Home',path:'/',id:'home'},
     {name:'About',path:'/about',id:'about'},
     {name:'My Skills',path:'/myskills',id:'my-skills'},
     {name:'Projects',path:'/projects',id:'projects'},
